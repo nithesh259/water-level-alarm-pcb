@@ -6,35 +6,35 @@ The project contains the schematic, PCB layout, 3D views, and Gerber manufacturi
 
 ## 📁 Project Structure
 
-```text
-Pcb_Water_level/
-│
-├── README.md
-│
-├── views_3d_pcb/
-│   ├── 3d_view1.png
-│   ├── 3d_view2.png
-│   ├── pcb_view1.png
-│   ├── pcb_view2.png
-│   └── pcb_view3.png
-│
-├── schematic/
-│   ├── schematic_1.png
-│   └── schematic_view.png
-│
-└── gerber_files/
-    ├── water_alarm-B_Cu.gbr
-    ├── water_alarm-B_Cu - Copy.gbr
-    ├── water_alarm-B_Cu.zip
-    ├── water_alarm-B_Mask.gbr
-    ├── water_alarm-B_Mask - Copy.gbr
-    ├── water_alarm-B_Silkscreen.gbr
-    ├── water_alarm-Edge_Cuts.gbr
-    ├── water_alarm-F_Cu.gbr
-    ├── water_alarm-F_Mask.gbr
-    ├── water_alarm-F_Silkscreen.gbr
-    ├── water_alarm-NPTH.drl
-    └── water_alarm-PTH.drl
+
+|DRC Clean_image.png
+│   README.md
+│   symbol_field_table.png
+│   
+├───gerber_files
+│       water_alaram-B_Cu.gbr
+│       water_alaram-B_Cu.zip
+│       water_alaram-B_Mask.gbr
+│       water_alaram-B_Silkscreen.gbr
+│       water_alaram-Edge_Cuts.gbr
+│       water_alaram-F_Cu.gbr
+│       water_alaram-F_Mask.gbr
+│       water_alaram-F_Silkscreen.gbr
+│       water_alaram-NPTH.drl
+│       water_alaram-PTH.drl
+│       
+├───pcb_views
+│       3d_view1.png
+│       3d_view2.png
+│       3d_view3.png
+│       All_layers.png
+│       Back_layer.png
+│       Front_layer.png
+│       full_layer.png
+│       
+└───schematic
+        schematic_view.png
+
 ```
 
 ## 🔧 Tools Used
